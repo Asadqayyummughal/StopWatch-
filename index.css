@@ -1,0 +1,54 @@
+.container, #clock{
+    padding-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: lightgrey;
+    padding-left: 100px;
+
+} 
+.container, #clock{
+    font-size: xx-large;
+    padding-bottom: 20px;
+
+}
+.container .heading{
+    color: '#f5bf42';
+}
+/* .container .buttons{
+    display: inline-block;
+} */
+.container .buttons #start,#pause,#split-btn,#reset-btn{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: bold;
+    font-weight: 200;
+}
+.container .buttons>#pause{
+    display: none;
+    background-color: #f542a4;
+}
+.container .buttons #start{
+  background-color:   #4281f5;
+}
+.container .buttons>#pause{
+    display: none;
+
+}
+.container.buttons,#split-btn{
+    background-color: #f5bf42;
+}
+.container .buttons #reset-btn{
+    display: #4281f5;
+}
+.container #collection{
+    font-size: xx-large;
+
+
+}
+
